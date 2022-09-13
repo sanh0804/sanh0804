@@ -23,6 +23,6 @@ app.use(cors());
 
 // Route
 app.use("/product", require("./routes/product"));
-app.use("/user",require("./routes/user"));
+app.use("/user", require("./routes/user"));
 
 app.listen(5000, () => console.log("Server is running"));
